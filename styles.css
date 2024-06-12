@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #111;
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+  background-color: #181818;
+  padding: 60px;
+  border-radius: 10px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-family: "Rubik Scribble", system-ui;
+  color: #fff;
+}
+
+
+.image-container {
+  margin-bottom: 30px;
+}
+
+.profile-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-button {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.social-button:hover {
+  background-color: #fff;
+  color: #111;
+}
+
+.social-button:last-child {
+  margin-bottom: 0;
+}
+
+.created-by {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}

@@ -13,16 +13,16 @@ buttons.forEach(button => {
 
 const video = document.getElementById("myVideo");
 const soundsButton = document.getElementById("soundsButton");
-let isMuted = true; // Zmienna śledząca stan wyciszenia
+let isMuted = true;
 
 soundsButton.addEventListener("click", function() {
     if (isMuted) {
-        video.muted = false; // Włącz dźwięk
-        isMuted = false; // Zaktualizuj stan wyciszenia
-        soundsButton.textContent = "Mute"; // Zaktualizuj tekst przycisku
+        video.muted = false;
+        isMuted = false;
+        soundsButton.textContent = "Mute";
     } else {
-        video.muted = true; // Wycisz dźwięk
-        isMuted = true; // Zaktualizuj stan wyciszenia
-        soundsButton.textContent = "UnMute"; // Zaktualizuj tekst przycisku
+        video.muted = true;
+        isMuted = true;
+        soundsButton.textContent = "UnMute";
     }
 });

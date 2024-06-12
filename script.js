@@ -13,7 +13,7 @@ buttons.forEach(button => {
 
 const video = document.getElementById("myVideo");
 const soundsButton = document.getElementById("soundsButton");
-let isMuted = true; // Zmienna śledząca stan wyciszenia
+let isMuted = true;
 
 soundsButton.addEventListener("click", function() {
     if (isMuted) {
